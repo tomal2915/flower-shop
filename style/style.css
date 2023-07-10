@@ -52,3 +52,33 @@
     height: 800px;
     margin-top: 50px;
 }
+
+/* style for our-featured-flowers */
+.our-featured-flowers {
+    margin-top: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* style for our-featured-flowers-title */
+.our-featured-flowers-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    width: 392px;
+    height: 48px;
+
+}
+
+/* style for our-featured-flowers-pera */
+.our-featured-flowers-pera {
+    text-align: center;
+    width: 594px;
+    height: 60px;
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
