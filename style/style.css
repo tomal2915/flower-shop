@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+.header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+}
+
+/* style for banner section */
+.banner {
+    width: 708px;
+    height: 506px;
+    margin: 240px 197px;
+}
+
+/* style for banner title */
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* style for banner paragraph */
+.banner-pera {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* style for button */
+.button-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* header style for image */
+.header-img {
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
