@@ -6,20 +6,22 @@
 
 .header {
     display: flex;
+    flex-direction: row;
     background: rgba(229, 84, 115, 0.10);
-    width: 1920px;
-    height: 850px;
+    /* width: 1920px; */
+    height: 650px;
 }
 
 /* style for banner section */
 .banner {
-    width: 708px;
-    height: 506px;
-    margin: 240px 197px;
+    width: 700px;
+    height: 500px;
+    margin: 100px;
 }
 
 /* style for banner title */
 .banner-title {
+    display: flex;
     color: #272727;
     font-size: 80px;
     font-weight: 700;
@@ -32,6 +34,8 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    width: 630px;
+    height: 90px;
 }
 
 /* style for button */
@@ -44,13 +48,15 @@
     background: #E55473;
     border: solid #FFFFFF;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* header style for image */
 .header-img {
     width: 635px;
-    height: 800px;
+    height: 600px;
     margin-top: 50px;
+    margin-right: 250px;
 }
 
 /* style for our-featured-flowers */
@@ -80,5 +86,44 @@
     margin-bottom: 48px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+    font-weight: 400;
+}
+
+/* style for footer */
+.flower-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 1920px; */
+    height: 150px;
+    background: #111010;
+    color: #FFFFFF;
+    padding: 128px;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    width: 259px;
+    height: 58px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.flower-pera {
+    text-align: center;
+    width: 625px;
+    height: 60px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.copy-rigths {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
     font-weight: 400;
 }
