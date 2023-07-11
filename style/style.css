@@ -76,7 +76,6 @@
     margin-bottom: 24px;
     width: 392px;
     height: 48px;
-
 }
 
 /* style for our-featured-flowers-pera */
@@ -96,6 +95,7 @@
     flex-direction: row;
     gap: 24px;
     margin: 0 128px 128px 128px;
+    /* border: solid; */
 }
 
 .image-card-1 {
@@ -180,9 +180,6 @@
     padding: 200px;
 }
 .sign-up-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 24px;
 }
 .sign-up-header{
@@ -196,21 +193,70 @@
 
 /* style for instagram */
 .instagram{
-    width: 1440px;
-}
-.instagram-1{
+    margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0 48px 0;
+}
+/* .instagram-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 20px 48px 20px;
     gap: 24px;
+} */
+.instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .instagram-img{
+    width: 1120px;
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin: 0 240px 128px 240px;
+    margin: 0 128px 128px 128px;
+    /* border: solid; */
+}
+.instagram-img-1{
+    width: 262px;
+    height: 300px;
+}
+.instagram-img-2{
+    width: 262px;
+    height: 300px;
+}
+.instagram-img-3{
+    width: 262px;
+    height: 300px;
+}
+.instagram-img-4{
+    width: 262px;
+    height: 300px;
+}
+
+/* style for deals */
+.deals{
+    background-image: url("../Flower-Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+    margin: 0 199px 199px 199px;
+}
+.input-field{
+    /* flex-direction: row; */
+    margin-top: 48px;
+    margin-right: 10px;
+    margin-bottom: 121px;
+    border: solid #E55473;
+    width: 700px;
+    height: 64px;
+    padding: 5px;
 }
 
 /* style for footer */
