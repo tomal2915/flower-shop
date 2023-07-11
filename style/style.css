@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     background: rgba(229, 84, 115, 0.10);
-    /* width: 1920px; */
+    /* width: 1510px; */
     height: 650px;
 }
 
@@ -53,10 +53,11 @@
 
 /* header style for image */
 .header-img {
-    width: 635px;
+    width: 535px;
     height: 600px;
     margin-top: 50px;
-    margin-right: 250px;
+    /* margin-right: 50px; */
+    align-content: space-between;
 }
 
 /* style for our-featured-flowers */
@@ -87,6 +88,129 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+}
+
+.image-card {
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0 128px 128px 128px;
+}
+
+.image-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 300px 300px 0 0;
+    background: rgba(167, 33, 98, 0.15);
+    width: 360px;
+    height: 400px;
+}
+
+.child-1 {
+    width: 310px;
+    height: 289px;
+    padding: 110px 25px 0 20px;
+    margin-bottom: 32px;
+}
+
+.image-card-1>p {
+    text-decoration: underline;
+}
+
+.image-card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 300px 300px 0 0;
+    background: rgba(5, 151, 160, 0.15);
+    width: 360px;
+    height: 400px;
+}
+
+.child-2 {
+    width: 310px;
+    height: 289px;
+    padding: 110px 25px 0 20px;
+    margin-bottom: 32px;
+}
+
+.image-card-2>p {
+    text-decoration: underline;
+}
+
+.image-card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 300px 300px 0 0;
+    background: rgba(71, 125, 17, 0.15);
+    width: 360px;
+    height: 400px;
+}
+
+.child-3 {
+    width: 310px;
+    height: 289px;
+    padding: 110px 25px 0 25px;
+    margin-bottom: 32px;
+}
+
+.image-card-3>p {
+    text-decoration: underline;
+}
+
+/* style for featured-extra */
+.featured-extra {
+    width: 1120px;
+    height: 320px;
+    margin: 0 240px 0 240px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* style for sing up */
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 200px;
+}
+.sign-up-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.sign-up-header{
+    width: 537px;
+    height: 48px;
+}
+.sign-up-pera{
+    width: 594px;
+    height: 60px;
+}
+
+/* style for instagram */
+.instagram{
+    width: 1440px;
+}
+.instagram-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 48px 0;
+    gap: 24px;
+}
+
+.instagram-img{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0 240px 128px 240px;
 }
 
 /* style for footer */
