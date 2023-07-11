@@ -165,9 +165,46 @@
 .featured-extra {
     width: 1120px;
     height: 320px;
-    margin: 0 240px 0 240px;
+    margin: 128px 248px 128px 248px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    
+}
+.extra-1{
+    width: 250px;
+    margin-left: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.extra-1 > p{
+    cursor: pointer;
+}
+.extra-2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.extra-2 > p{
+    cursor: pointer;
+}
+.extra-3{
+    width: 250px;
+    margin-right: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.extra-3 > p{
+    cursor: pointer;
 }
 
 /* style for sing up */
@@ -175,29 +212,35 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 250px;
     gap: 250px;
     background: rgba(229, 84, 115, 0.05);
     padding: 200px;
+
 }
-.sign-up-content{
+
+.sign-up-content {
     gap: 24px;
 }
-.sign-up-header{
+
+.sign-up-header {
     width: 537px;
     height: 48px;
 }
-.sign-up-pera{
+
+.sign-up-pera {
     width: 594px;
     height: 60px;
 }
 
 /* style for instagram */
-.instagram{
+.instagram {
     margin-top: 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /* .instagram-1{
     display: flex;
     flex-direction: column;
@@ -212,7 +255,7 @@
     margin-bottom: 24px;
 }
 
-.instagram-img{
+.instagram-img {
     width: 1120px;
     display: flex;
     flex-direction: row;
@@ -220,25 +263,29 @@
     margin: 0 128px 128px 128px;
     /* border: solid; */
 }
-.instagram-img-1{
+
+.instagram-img-1 {
     width: 262px;
     height: 300px;
 }
-.instagram-img-2{
+
+.instagram-img-2 {
     width: 262px;
     height: 300px;
 }
-.instagram-img-3{
+
+.instagram-img-3 {
     width: 262px;
     height: 300px;
 }
-.instagram-img-4{
+
+.instagram-img-4 {
     width: 262px;
     height: 300px;
 }
 
 /* style for deals */
-.deals{
+.deals {
     background-image: url("../Flower-Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     display: flex;
@@ -246,9 +293,10 @@
     align-items: center;
     gap: 10px;
     padding: 100px;
-    margin: 0 199px 199px 199px;
+    margin: 0 199px 128px 199px;
 }
-.input-field{
+
+.input-field {
     /* flex-direction: row; */
     margin-top: 48px;
     margin-right: 10px;
