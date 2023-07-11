@@ -4,41 +4,6 @@
     font-family: Lato;
 }
 
-/* style for header section */
-.header {
-    display: flex;
-    flex-direction: row;
-    background: rgba(229, 84, 115, 0.10);
-    /* width: 1510px; */
-    height: 650px;
-}
-
-/* style for banner section */
-.banner {
-    width: 700px;
-    height: 500px;
-    margin: 100px;
-}
-
-/* style for banner title */
-.banner-title {
-    display: flex;
-    color: #272727;
-    font-size: 80px;
-    font-weight: 700;
-}
-
-/* style for banner paragraph */
-.banner-pera {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    width: 630px;
-    height: 90px;
-}
-
 /* style for primary button */
 .button-primary {
     display: inline-flex;
@@ -52,7 +17,34 @@
     cursor: pointer;
 }
 
-/* header style for image */
+/* style for header section */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    height: 650px;
+}
+
+/* style for banner section */
+.banner {
+    width: 700px;
+    height: 500px;
+    margin: 100px;
+}
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+}
+.banner-pera {
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 630px;
+    height: 90px;
+}
 .header-img {
     width: 535px;
     height: 600px;
@@ -68,8 +60,6 @@
     flex-direction: column;
     align-items: center;
 }
-
-/* style for our-featured-flowers-title */
 .our-featured-flowers-title {
     color: #272727;
     font-size: 40px;
@@ -78,8 +68,6 @@
     width: 392px;
     height: 48px;
 }
-
-/* style for our-featured-flowers-pera */
 .our-featured-flowers-pera {
     text-align: center;
     width: 594px;
@@ -89,8 +77,6 @@
     font-size: 18px;
     font-weight: 400;
 }
-
-/* style for our-featured-flowers image-card */
 .image-card {
     width: 1120px;
     display: flex;
@@ -99,8 +85,6 @@
     margin: 0 128px 128px 128px;
     font-weight: bold;
 }
-
-/* style for  */
 .image-card-1 {
     display: flex;
     flex-direction: column;
@@ -110,22 +94,16 @@
     width: 360px;
     height: 400px;
 }
-
-/* style for  */
 .child-1 {
     width: 310px;
     height: 289px;
     padding: 110px 25px 0 20px;
     margin-bottom: 32px;
 }
-
-/* style for  */
 .image-card-1>p {
     text-decoration: underline;
 
 }
-
-/* style for  */
 .image-card-2 {
     display: flex;
     flex-direction: column;
@@ -135,21 +113,15 @@
     width: 360px;
     height: 400px;
 }
-
-/* style for  */
 .child-2 {
     width: 310px;
     height: 289px;
     padding: 110px 25px 0 20px;
     margin-bottom: 32px;
 }
-
-/* style for  */
 .image-card-2>p {
     text-decoration: underline;
 }
-
-/* style for  */
 .image-card-3 {
     display: flex;
     flex-direction: column;
@@ -159,16 +131,12 @@
     width: 360px;
     height: 400px;
 }
-
-/* style for  */
 .child-3 {
     width: 310px;
     height: 289px;
     padding: 110px 25px 0 25px;
     margin-bottom: 32px;
 }
-
-/* style for  */
 .image-card-3>p {
     text-decoration: underline;
 }
@@ -177,17 +145,14 @@
 .featured-extra {
     width: 1120px;
     height: 320px;
-    margin: 128px 248px 128px 248px;
+    margin: 0 248px 128px 248px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 175px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-
 }
-
-/* style for  */
 .extra-1 {
     width: 250px;
     margin-left: 175px;
@@ -196,13 +161,9 @@
     align-items: center;
     gap: 24px;
 }
-
-/* style for  */
 .extra-1>p {
     cursor: pointer;
 }
-
-/* style for  */
 .extra-2 {
     width: 250px;
     display: flex;
@@ -210,13 +171,9 @@
     align-items: center;
     gap: 24px;
 }
-
-/* style for  */
 .extra-2>p {
     cursor: pointer;
 }
-
-/* style for  */
 .extra-3 {
     width: 250px;
     margin-right: 175px;
@@ -225,8 +182,6 @@
     align-items: center;
     gap: 24px;
 }
-
-/* style for  */
 .extra-3>p {
     cursor: pointer;
 }
@@ -236,27 +191,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 250px;
-    gap: 250px;
+    height: 150px;
+    gap: 100px;
     background: rgba(229, 84, 115, 0.05);
     padding: 200px;
 }
-
-/* style for  */
 .sign-up-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 24px;
 }
-
-/* style for  */
 .sign-up-header {
     width: 537px;
     height: 48px;
 }
-
-/* style for  */
 .sign-up-pera {
     text-align: center;
     width: 594px;
@@ -270,16 +219,12 @@
     flex-direction: column;
     align-items: center;
 }
-
-/* style for  */
 .instagram-title {
     color: #272727;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-
-/* style for  */
 .instagram-img {
     width: 1120px;
     display: flex;
@@ -288,26 +233,18 @@
     margin: 0 128px 128px 128px;
     /* border: solid; */
 }
-
-/* style for  */
 .instagram-img-1 {
     width: 262px;
     height: 300px;
 }
-
-/* style for  */
 .instagram-img-2 {
     width: 262px;
     height: 300px;
 }
-
-/* style for  */
 .instagram-img-3 {
     width: 262px;
     height: 300px;
 }
-
-/* style for  */
 .instagram-img-4 {
     width: 262px;
     height: 300px;
@@ -324,13 +261,9 @@
     padding: 100px;
     margin: 0 199px 128px 199px;
 }
-
-/* style for  */
 .deals>p {
     text-align: center;
 }
-
-/* style for  */
 .input-field {
     margin-top: 48px;
     margin-right: 10px;
@@ -341,7 +274,6 @@
     height: 55px;
     padding: 5px;
 }
-
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -360,7 +292,6 @@
     width: 400px;
     margin-bottom: 10px;
 }
-
 .contact-form input {
     padding: 10px;
     border: 1px solid #ccc;
@@ -384,8 +315,6 @@
     color: #FFFFFF;
     padding: 128px;
 }
-
-/* style for  */
 .footer-title {
     text-align: center;
     font-size: 48px;
@@ -393,13 +322,9 @@
     width: 259px;
     height: 58px;
 }
-
-/* style for  */
 .flower {
     color: #E55473;
 }
-
-/* style for  */
 .flower-pera {
     text-align: center;
     width: 625px;
@@ -408,9 +333,7 @@
     margin-bottom: 24px;
     color: rgba(255, 255, 255, 0.90);
 }
-
-/* style for  */
-.copy-rigths {
+.copy-right {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
